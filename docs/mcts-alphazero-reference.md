@@ -1,11 +1,5 @@
 # Monte Carlo Tree Search & AlphaZero - Reference Notes
 
-A practical lookup guide covering MCTS fundamentals, UCT, AlphaZero, PUCT,
-engineering tricks, the training loop, and zero-sum handling.
-
-Use this file as project knowledge so the core ideas stay available and
-consistent.
-
 ## 1. Foundations of Monte Carlo Tree Search
 
 MCTS is an online, randomized heuristic search for large state spaces. It builds
@@ -201,11 +195,3 @@ Negamax idea:
 value_for_me = -value_for_opponent
 ```
 
-## 10. Suggested Learning Path
-
-1. Understand the four phases of classic MCTS.
-2. Derive and play with the UCT formula on a tiny tree.
-3. See how AlphaZero replaces the rollout with a value network.
-4. Compare UCT and PUCT.
-5. Study the self-play training loop and the loss function.
-6. Implement a minimal educational MCTS, then add PUCT and a dummy network.
